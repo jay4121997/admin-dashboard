@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+// import './css/_all-skins.min.css';
+// import './css/AdminLTE.css';
+// import './css/bootstrap.min.css';
+// import './css/font-awesome.min.css';
+// import './css/ionicons.min.css';
+// import './images/user.jpg';
+// import './js/adminlte.min.js';
+// import './js/bootstrap.min.js';
+// import './js/dashboard2.js';
+// import './js/demo.js';
+// import './js/jquery.min.js';
+// import './js/jquery.slimscroll.min.js';
+// import './js/jquery.sparkline.min.js';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
